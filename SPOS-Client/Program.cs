@@ -8,6 +8,7 @@ namespace SPOS_Client
 {
     internal static class Program
     {
+        internal static StateResult StateResult = StateResult.Idle;
         /// <summary>
         /// アプリケーションのメイン エントリ ポイントです。
         /// </summary>
